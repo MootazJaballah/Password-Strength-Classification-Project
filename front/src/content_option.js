@@ -11,7 +11,7 @@ const introdata = {
         second: "AI-Enhanced Website Security.",
     },
     description: "SecureKey AI revolutionizes password security by leveraging an AI-powered RandomForestClassifier to evaluate and enhance password strength, providing users with real-time, intelligent feedback for creating unassailable digital keys.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://github.com/MootazJaballah/Password-Strength-Classification-Project/blob/main/front/src/assets/images/Ai_security.png?raw=true",
 };
 
 

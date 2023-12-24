@@ -4,6 +4,7 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import { meta, contactConfig } from "../../content_option";
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
+import { Link } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
 import "./style.css";
 
@@ -190,6 +191,11 @@ export const Register = () => {
                   <button className="btn ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "Register"}
                   </button>
+                  <Link to="/login" className="text_2">
+                    <button className="btn ac_btn">
+                      I have an account
+                    </button>
+                  </Link>
                   <ToastContainer />
                 </Col>
               </Row>

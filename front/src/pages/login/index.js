@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { meta } from "../../content_option";
 import { toast, ToastContainer } from 'react-toastify';
+import { Link } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
 
 export const Login = () => {
@@ -110,6 +111,12 @@ export const Login = () => {
                   <button className="btn ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "LogIn"}
                   </button>
+                  <h4 style={{display: "inline", marginRight: "20px"}}>Or</h4>
+                  <Link to="/register" className="text_2">
+                    <button className="btn ac_btn">
+                      Create account
+                    </button>
+                  </Link>
                   <ToastContainer />
                 </Col>
               </Row>
