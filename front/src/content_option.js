@@ -1,16 +1,16 @@
-const logotext = "CyberZ";
+const logotext = "SecureKey AI";
 const meta = {
-    title: "CyberZ",
-    description: "CyberZ",
+    title: "SecureKey AI",
+    description: "SecureKey AI",
 };
 
 const introdata = {
-    title: "CyberZ",
+    title: "SecureKey AI",
     animated: {
-        first: "We love Security",
-        second: "We Secure websites",
+        first: "Password Strength Analyzer.",
+        second: "AI-Enhanced Website Security.",
     },
-    description: "Welcome to the CyberZ Hub, your one-stop for everything related to hacking! Whether you're a seasoned veteran or just starting out, we have something for you.",
+    description: "SecureKey AI revolutionizes password security by leveraging an AI-powered RandomForestClassifier to evaluate and enhance password strength, providing users with real-time, intelligent feedback for creating unassailable digital keys.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
